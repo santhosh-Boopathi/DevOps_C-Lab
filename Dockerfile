@@ -1,18 +1,3 @@
-# FROM node:14
-
-# WORKDIR /app
-
-# COPY ./package.json .
-
-# RUN npm install
-
-# COPY . /app
-
-# EXPOSE 3000
-
-# CMD [ "npm", "start" ]
-
-
 # Use a stable Node.js version
 FROM node:20-alpine
 
