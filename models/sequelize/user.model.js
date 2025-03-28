@@ -14,7 +14,8 @@ module.exports = (sequelize, DataTypes) => {
 			},
 		},
 		{
-			// Other model options go here
+			tableName: 'user',// Other model options go here
+			timestamps: true,
 		}
 	);
 
